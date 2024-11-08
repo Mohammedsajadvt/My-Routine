@@ -11,10 +11,10 @@ class CustomTextField extends StatelessWidget {
     return TextField(
       controller: controller,
       obscureText: obsecureText,
-      decoration: InputDecoration(
-          enabledBorder: const OutlineInputBorder(
+      decoration: const InputDecoration(
+          enabledBorder: OutlineInputBorder(
               borderSide: BorderSide(color: GlobalVariables.greyBackgroundColor)),
-          focusedBorder:const OutlineInputBorder(
+          focusedBorder:OutlineInputBorder(
               borderSide: BorderSide(color: GlobalVariables.greyBackgroundColor)),
           fillColor: GlobalVariables.backgroundColor,
           filled: true),
